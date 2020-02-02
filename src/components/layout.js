@@ -38,6 +38,7 @@ class Layout extends React.Component {
   componentDidMount() {
     if (window.Snipcart) {
       window.Snipcart.api.configure('show_continue_shopping', true);
+      window.Snipcart.setLang('ja-JP')
     }
   }
 
