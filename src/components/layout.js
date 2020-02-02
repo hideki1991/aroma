@@ -39,9 +39,6 @@ class Layout extends React.Component {
     if (window.Snipcart) {
       window.Snipcart.api.configure('show_continue_shopping', true);
       window.Snipcart.setLang('ja-JP')
-      window.Snipcart.api.configure('allowed_shipping_methods', [
-        'YAMATO',
-      ]);
     }
   }
 
